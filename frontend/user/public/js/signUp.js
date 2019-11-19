@@ -49,7 +49,7 @@ $(document).ready(function () {
             return alert("Confirm Password does not match")
         }
         name = firstName + " " + lastName;
-        $.ajax("https://examportal0018.herokuapp.com/signUp",{
+        $.ajax("https://immense-peak-43197.herokuapp.com/signUp",{
         //$.ajax("http://localhost:"+localStorage.getItem('server-port')+"/signUp", {
             type: "POST",
             dataType: "json",
