@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    
+    "prestart": "next build",
+    "start": "next start -p ${PORT}",
   },
   "keywords": [],
   "author": "",
@@ -25,6 +27,7 @@
     "package.json": "^2.0.1",
     "xlsx": "^0.15.1"
   },
+
   "devDependencies": {
     "nodemon": "^1.19.4"
   }
